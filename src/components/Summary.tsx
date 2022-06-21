@@ -53,10 +53,3 @@ export const Summary = ({ logs }: Props) => {
     </div>
   );
 };
-
-// export type Summary = {
-//   starting: number;
-//   lowest: number;
-//   highest: number;
-//   current: number;
-// };
