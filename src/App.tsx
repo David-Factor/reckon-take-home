@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { Log } from "./components/Log";
 import { Summary } from "./components/Summary";
 import { useLogs } from "./hooks/use-logs";
