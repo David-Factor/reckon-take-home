@@ -38,7 +38,7 @@ export const Summary = ({ logs }: Props) => {
             <tr key={summary.stock}>
               {Object.keys(summary).map((key) => {
                 if (key === "stock") {
-                  return <td>{summary.stock}</td>;
+                  return <td key={key}>{summary.stock}</td>;
                 }
                 return (
                   <td className="right-align" key={key}>
